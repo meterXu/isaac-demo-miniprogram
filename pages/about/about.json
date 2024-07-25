@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+  },
+  "navigationBarBackgroundColor":"#03111E",
+  "navigationBarTextStyle":"white",
+  "navigationBarTitleText": "人物介绍"
+}

@@ -1,0 +1,19 @@
+# Dependency directories
+/node_modules/
+/dist/
+.idea
+
+# Debugging files
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Production build files
+/miniprogram_dist/
+
+# Miniprogram code
+/miniprogram_npm/
+
+# Custom files
+/.DS_Store
+/Thumbs.db

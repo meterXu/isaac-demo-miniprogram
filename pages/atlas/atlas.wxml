@@ -1,0 +1,13 @@
+<view class="atlas_wrap">
+    <view class="img-title" style="padding-top:{{SystemInfo.statusBarHeight}}px;height:{{SystemInfo.navigationHeight}}px">
+        <view class="back" bind:tap="onBack">
+            <image class="back-icon" src="../../assets/image/back.png"></image>
+        </view>
+        <text class="img-title-text">精彩图集</text>
+    </view>
+    <scroll-view scroll-y="true" style="height:calc(100vh - {{SystemInfo.headerHeight}}px - {{SystemInfo.iosBottomBarHeight}}px)" type="list">
+        <view class="atlas_list">
+            <view wx:for="{{imgData}}" wx:key="index" class="img img_{{index}}"></view>
+        </view>
+    </scroll-view>
+</view>

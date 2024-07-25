@@ -1,0 +1,56 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url("https://server.isaacxu.com:4443/webfile/seven_01.webp") center center no-repeat;
+    background-size: cover;
+}
+.btn_group{
+    position: absolute;
+    bottom: 200rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 24rpx;
+}
+.btn_group button{
+    background: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.5);
+}
+
+.btn_group button:active{
+    background: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.8);
+}
+.search_wrap{
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.search_wrap-content{
+    margin-left: 40rpx;
+    position: relative;
+}
+.search-input{
+    height: 60rpx;
+    line-height: 64rpx;
+    border:2rpx solid rgb(146 146 146 / 70%);
+    border-radius: 34rpx;
+    width: 420rpx;
+    padding-left: 64rpx;
+    color: #fff;
+}
+.search-icon{
+    width:25rpx;
+    height: 25rpx;
+    position: absolute;
+    left: 26rpx;
+    top: 22rpx;
+}
+.content_wrap{
+    padding: 48rpx;
+    color: rgba(255,255,255,0.6);
+}

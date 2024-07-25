@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="search_wrap" style="padding-top:{{SystemInfo.statusBarHeight}}px">
+      <view class="search_wrap-content">
+          <input class="search-input" auto-focus placeholder="信息查询" bindconfirm="onSearch"/>
+          <image class="search-icon" src="../../assets/image/search.png"></image>
+      </view>
+    </view>
+    <view class="content_wrap">
+        <text>{{searchRes}}</text>
+    </view>
+    <view class="btn_group" wx:if="{{showBtn}}">
+        <button bindtap="onAbout">人物介绍</button>
+        <button bindtap="onAtlas">精彩图集</button>
+    </view>
+</view>
